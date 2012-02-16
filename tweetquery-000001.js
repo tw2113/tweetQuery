@@ -8,6 +8,10 @@
  * Twitter Endpoint: https://api.twitter.com/1/statuses/user_timeline.json
  */
 
+/*
+JSONP is a haven for XSS issues
+consider server side proxy
+*/
 (function( $ ) {
   	$.fn.tweetQuery = function(options) {
 		// set up default options
