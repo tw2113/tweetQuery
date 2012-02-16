@@ -34,7 +34,7 @@
 
 		$.ajax({
   			url: '',
-  			dataType: 'json',
+  			dataType: 'jsonp',
   			ifModified: true,
   			statusCode: {
 	  			404: function() {
