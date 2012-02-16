@@ -22,5 +22,22 @@
 		};
 		// Overwrite default options with user provided ones and merge them into "options".
 		var options = $.extend({}, defaults, options);
+
+		$.ajax({
+  			url: "",
+  			dataType: json,
+  			ifModified: true,
+  			statusCode: {
+	  			404: function() {
+	  				//
+	  			}
+	  		},
+  			error: function() {
+  				//
+  			},
+  			success: function(data){
+  				//
+  			}
+		});
 	};
 })( jQuery );
