@@ -1,8 +1,7 @@
 /*!
  * tweetQuery
- * Copyright: CC0 aka Public Domain
- * http://creativecommons.org/publicdomain/zero/1.0/
- * Version: .000001
+ * Copyright: WTFPL
+ * Version: .000002
  * Requires: jQuery v1.3.2 or later
  * Twitter API docs: https://dev.twitter.com/docs/api/1/get/statuses/user_timeline
  * Twitter Endpoint: https://api.twitter.com/1/statuses/user_timeline.json
