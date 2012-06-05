@@ -54,9 +54,9 @@ consider server side proxy
 				}
 				$.each(data, function(i,thetweets) {
 					if(myoptions.markup == 'ul' || myoptions.markup == 'ol'){
-						tweet += '<li>'+thetweets.text+'</li>';
+						tweet += '<li>'+twitify(thetweets.text)+'</li>';
 					} else {
-						tweet += '<div><p>'+thetweets.text+'</p></div>';
+						tweet += '<div><p>'+twitify(thetweets.text)+'</p></div>';
 					}
 				});
 				if(myoptions.markup == 'ul') {
