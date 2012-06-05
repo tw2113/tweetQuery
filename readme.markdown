@@ -1,6 +1,6 @@
 # jQuery tweetQuery
 
-## Basic Options
+## Options
 
 * username:		"twitter"
 
