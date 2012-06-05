@@ -33,7 +33,6 @@ consider server side proxy
 		tweets += 'include_rts='+myoptions.include_rts+'&';
 		tweets += 'include_entities='+myoptions.include_entities+'&';
 		tweets += 'callback=?';
-		console.log(tweets);
 		$.ajax({
 			url: tweets,
 			dataType: 'jsonp',
