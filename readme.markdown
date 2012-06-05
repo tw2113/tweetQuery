@@ -1,4 +1,4 @@
-## jQuery tweetQuery
+# jQuery tweetQuery
 
 ## Basic Options
 
@@ -33,3 +33,5 @@ Include entities. This is basically tweet metadata. See: [Twitter API Tweet Enti
 			'username': 'tw2113'
 		});
 	});
+
+This will append the resulting twitter data for @tw2113 into a dom element with the ID of "tweets".
