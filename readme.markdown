@@ -24,4 +24,12 @@ Include RTs. Setting to false removes any RTs from the total tweetcount shown ab
 
 * include_entities:	1
 
-Include entities. This is basically tweet metadata. See: https://dev.twitter.com/docs/tweet-entities. Defaults to true
+Include entities. This is basically tweet metadata. See: [Twitter API Tweet Entities](https://dev.twitter.com/docs/tweet-entities). Defaults to true
+
+## Example
+
+	$(document).ready( function(){
+		$('#tweets').tweetQuery({
+			'username': 'tw2113'
+		});
+	});
