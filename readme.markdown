@@ -34,4 +34,4 @@ Include entities. This is basically tweet metadata. See: [Twitter API Tweet Enti
 		});
 	});
 
-This will append the resulting twitter data for @tw2113 into a dom element with the ID of "tweets".
+This will append the resulting twitter data for @tw2113 into a dom element with the ID of "tweets". The rest of the options fall back to the defaults mentioned above.
