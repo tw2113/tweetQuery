@@ -1,5 +1,9 @@
 # jQuery tweetQuery
 
+## Demo
+
+[Demo](http://trexthepirate.com/tweetquery/) located here. It also lists the arguments available.
+
 ## Options
 
 * username:		"twitter"
