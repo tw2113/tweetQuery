@@ -1,8 +1,12 @@
 # jQuery tweetQuery
 
+## Obsolete
+
+Due to Twitter retiring the 1.0 API version and moving everyone to 1.1, this plugin will become obsolete. Fork if you want, I don't plan to make it authenticate as a "Twitter app".
+
 ## Demo
 
-[Demo](http://trexthepirate.com/tweetquery/) located here. It also lists the arguments available.
+[~~Demo~~](http://trexthepirate.com/tweetquery/) located here. It also lists the arguments available.
 
 ## Options
 
